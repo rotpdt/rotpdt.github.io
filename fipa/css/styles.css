@@ -53,7 +53,7 @@ a:focus { outline:thin dotted; }
 .clear { clear:both; }
 .middle { vertical-align:middle; }
 .wrapp-p { max-width:990px; margin:0 auto; position:relative; }
-.wrapp { width:990px; margin:0 auto; }
+.wrapp { width:100%; margin:0 auto; }
 .noPadding { padding:0 !important; }
 .noMargin { margin:0 !important; }
 .fx1 { -webkit-transition: all .1s linear; -moz-transition: all .1s linear; -o-transition: all .1s linear; transition: all .1s linear; }
@@ -91,6 +91,10 @@ header .container-superior {
 header .container-topo {
     height:109px;
 }
+header .logo {
+    float:left;
+    margin:18px 95px 15px 0px;
+}
 footer {
     min-width:100%;
     margin-top:80px;
@@ -116,6 +120,11 @@ footer .barra-inferior .logo-rodape {
     background-position:-712px 0px;
     width:91px;
     height:36px;
+}
+.sprite-geral.logo-header {
+    background-position:-805px 0px;
+    width:197px;
+    height:75px;
 }
 .sprite {
     background-repeat:no-repeat;
