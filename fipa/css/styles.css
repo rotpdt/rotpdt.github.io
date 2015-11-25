@@ -100,6 +100,13 @@ footer .footer {
     text-align:center;
     padding:9px 0px 12px;
 }
+footer .barra-inferior .row {
+    padding:10px 5px 10px 15px;
+}
+footer .row {
+    overflow:hidden;
+    clear:both;
+}
 .centraliza {
     width:100%;
     margin:0px auto;
