@@ -1,7 +1,7 @@
 *{}
 html{
-	margin:0px;
-	padding:0px;
+	margin:0px !important;
+	padding:0px !important;
 	overflow:auto;
 	font-size:100%;
 	-webkit-text-size-adjust:100%;
