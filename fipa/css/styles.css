@@ -88,15 +88,27 @@ header .container-superior {
     position:relative;
     min-width:100%;
 }
-.bg27, .bg27-hover:hover, 
-.bg27-hover:hover .hover-inherit {
-    background-color:#111;
-}
 header .container-topo {
     height:109px;
+}
+footer .footer {
+    text-align:center;
+    padding:9px 0px 12px;
 }
 .centraliza {
     width:100%;
     margin:0px auto;
     position:relative;
+}
+.bg27, .bg27-hover:hover, 
+.bg27-hover:hover .hover-inherit {
+    background-color:#111;
+}
+.bg31, .bg31-hover:hover, 
+.bg31-hover:hover .hover-inherit {
+    background-color:#1A1A1A;
+}
+.bgw, .bgw-hover:hover, 
+.bgw-hover:hover .hover-inherit {
+    background-color:#FFF;
 }
