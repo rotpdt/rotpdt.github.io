@@ -101,6 +101,9 @@ header .container-superior {
     position:relative;
     z-index:1;
 }
+.container-superior .page p {
+    float: left;
+}
 .container-superior .page .icon-home {
     float: left;
     margin-left: 7px;
