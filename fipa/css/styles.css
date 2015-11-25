@@ -91,6 +91,11 @@ header .container-superior {
 header .container-topo {
     height:109px;
 }
+footer {
+    min-width:100%;
+    margin-top:80px;
+    overflow:hidden;
+}
 footer .footer {
     text-align:center;
     padding:9px 0px 12px;
@@ -99,6 +104,10 @@ footer .footer {
     width:100%;
     margin:0px auto;
     position:relative;
+}
+.bg4, .bg4-hover:hover, 
+.bg4-hover:hover .hover-inherit {
+    background-color:#F0F0F0;
 }
 .bg27, .bg27-hover:hover, 
 .bg27-hover:hover .hover-inherit {
