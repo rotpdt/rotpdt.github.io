@@ -107,6 +107,28 @@ footer .row {
     overflow:hidden;
     clear:both;
 }
+footer .barra-inferior .logo-rodape {
+    position:relative;
+    margin-top:-2px;
+    height:36px;
+}
+.sprite-geral.logo-rodape {
+    background-position:-712px 0px;
+    width:91px;
+    height:36px;
+}
+.sprite {
+    background-repeat:no-repeat;
+    display:inline-block;
+    overflow:hidden;
+    font:0px/0 arial !important;
+    text-shadow:none;
+    color:transparent !important;
+    vertical-align:middle;
+}
+.sprite-geral {
+    background-image:url("#");
+}
 .centraliza {
     width:100%;
     margin:0px auto;
