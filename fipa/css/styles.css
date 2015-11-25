@@ -46,6 +46,10 @@ a:hover {
 }
 a:active, a:hover { outline:0; }
 a:focus { outline:thin dotted; }
+a, a span, a strong, a em {
+    cursor: pointer;
+    text-decoration: none;
+}
 
 /* Geral */
 .left { float:left; }
@@ -87,6 +91,25 @@ header .container-superior {
     height:30px;
     position:relative;
     min-width:100%;
+}
+.container-superior .page {
+    font-size:12px;
+    display:inline-block;
+    margin-top:8px;
+    overflow:hidden;
+    float:left;
+    position:relative;
+    z-index:1;
+}
+.container-superior .data {
+    font-size:13px;
+    display:inline-block;
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:8px;
+    text-align:center;
+    z-index:0;
 }
 header .container-topo {
     height:109px;
@@ -158,4 +181,13 @@ footer .barra-inferior .logo-rodape {
 .bgw, .bgw-hover:hover, 
 .bgw-hover:hover .hover-inherit {
     background-color:#FFF;
+}
+.cor-transition, .cor-transition .hover-inherit {
+    transition-property:color, opacity, border;
+    transition-duration:300ms;
+}
+.cor9, .cor9 .cor-inherit, 
+.force-cor, .force-cor9 span, 
+.force-cor9 a {
+    color:#999;
 }
