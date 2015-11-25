@@ -84,19 +84,19 @@ a:focus { outline:thin dotted; }
 .fa-1 { width:92px; }
 .fa-2 { width:86px; }
 header .container-superior {
-    height: 30px;
-    position: relative;
-    min-width: 1190px;
+    height:30px;
+    position:relative;
+    min-width:100%;
 }
 .bg27, .bg27-hover:hover, 
 .bg27-hover:hover .hover-inherit {
-    background-color: #111;
+    background-color:#111;
 }
 header .container-topo {
-    height: 109px;
+    height:109px;
 }
 .centraliza {
-    width: 1190px;
-    margin: 0px auto;
-    position: relative;
+    width:100%;
+    margin:0px auto;
+    position:relative;
 }
